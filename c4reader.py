@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
+'''
+Note: run the following two commands in terminal before running this code to install the required libraries and download their required data.
+'''
 #pip install datasets spacy
+#python -m spacy download en
 from datasets import load_dataset
 import spacy
 
